@@ -74,3 +74,12 @@ p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
 }
+
+[epub|type~="z3998:song"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
