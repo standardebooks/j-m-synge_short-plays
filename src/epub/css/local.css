@@ -60,7 +60,6 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-
 tr.together{
 	break-inside: avoid;
 }
@@ -83,7 +82,6 @@ tr.together td + td{
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
 }
-
 
 section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
@@ -113,11 +111,11 @@ section[epub|type~="z3998:dramatis-personae"]{
 	page-break-after: always;
 }
 
-section[epub|type~="z3998:halftitlepage"]{
+section[epub|type~="z3998:preface"]{
 	page-break-after: always;
 }
 
-section[epub|type~="z3998:preface"]{
+article > hgroup{
 	page-break-after: always;
 }
 
