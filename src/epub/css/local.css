@@ -84,14 +84,18 @@ p span.i2{
 	margin-top: 1em;
 }
 
-section[epub|type~="z3998:dramatis-personae"] {
-	page-break-after:always;
+section[epub|type~="z3998:dramatis-personae"]{
+	page-break-after: always;
 }
 
-section[epub|type~="z3998:halftitlepage"] {
-	page-break-after:always;
+section[epub|type~="z3998:halftitlepage"]{
+	page-break-after: always;
 }
 
-section[epub|type~="z3998:preface"] {
-	page-break-after:always;
+section[epub|type~="z3998:preface"]{
+	page-break-after: always;
+}
+
+td > p{
+	text-indent: 0;
 }
