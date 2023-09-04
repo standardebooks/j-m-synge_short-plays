@@ -28,43 +28,56 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Short Plays</dc:title>
 		<meta property="file-as" refines="#title">Short Plays</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Ireland -- Drama</dc:subject>
+		<dc:subject id="subject-2">Mothers and sons -- Drama</dc:subject>
+		<dc:subject id="subject-3">Drowning victims -- Drama</dc:subject>
+		<dc:subject id="subject-4">Seafaring life -- Drama</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008115496</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008107973</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">A collection of three short plays by Synge: In the Shadow of the Glen, Riders to the Sea, and The Tinker’s Wedding</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-m-synge"&gt;John Millington Synge&lt;/a&gt; first gained fame as a playwright with two plays inspired by his time in the Aran Islands. &lt;i&gt;In the Shadow of the Glen&lt;/i&gt; is set in County Wicklow, where a tramp arrives at an isolated cottage late at night where a dissatisfied woman is waking her dead husband. This was followed by &lt;i&gt;Riders to the Sea,&lt;/i&gt; set on the Aran Islands, where Maura waits for news of her son, missing at sea.&lt;/p&gt;
+			&lt;p&gt;This collection also includes &lt;i&gt;The Tinker’s Wedding&lt;/i&gt; a short comedy written about the time of the other two pieces but not performed until much later for fear that its treatment of a rural Irish priest would scandalize the pious Dublin audiences of the time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- In the Shadow of the Glen -->
+		<dc:source>https://www.gutenberg.org/ebooks/1618</dc:source>
+		<!-- Riders to the Sea -->
+		<dc:source>https://www.gutenberg.org/ebooks/994</dc:source>
+		<!-- The Tinker's Wedding -->
+		<dc:source>https://www.gutenberg.org/ebooks/1328</dc:source>
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=uc1.31175005875342</dc:source>
+		<meta property="se:is-a-collection">TRUE</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-m-synge_short-plays</meta>
-		<dc:creator id="author">J M Synge</dc:creator>
-		<meta property="file-as" refines="#author">Synge, J M</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/J_M_Synge</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<dc:creator id="author">J. M. Synge</dc:creator>
+		<meta property="file-as" refines="#author">Synge, J. M.</meta>
+		<meta property="se:name.person.full-name" refines="#author">John Millington Synge</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/J._M._Synge</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79022811</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Judy Boss</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Boss, Judy</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Christopher Hapka</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Hapka, Christopher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
