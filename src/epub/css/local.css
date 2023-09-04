@@ -122,3 +122,13 @@ article > hgroup{
 td > p{
 	text-indent: 0;
 }
+
+/* Signature lines for preface to The Tinker's Wedding */
+#the-tinkers-wedding-preface div:first-of-type{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#the-tinkers-wedding-preface div p:first-of-type{
+	text-align: right;
+}
