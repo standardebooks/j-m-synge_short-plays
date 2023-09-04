@@ -2,7 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 [epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+table[epub|type~="z3998:drama"] {
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -41,7 +41,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -60,29 +59,6 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-tr.together{
-	break-inside: avoid;
-}
-
-tr.together td{
-	padding: 0 .5em 0 0;
-	vertical-align: middle;
-}
-
-tr.together td:only-child,
-tr.together td + td{
-	border-left: 1px solid;
-}
-
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
-}
-
-[epub|type~="z3998:drama"] .together td:last-child{
-	padding-left: .5em;
-}
-
 section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
 	width: 75%;
@@ -93,25 +69,12 @@ p span.i1{
 	text-indent: -1em;
 }
 
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p{
-	margin-top: 1em;
-}
-
-section[epub|type~="z3998:dramatis-personae"]{
-	page-break-after: always;
-}
-
-section[epub|type~="z3998:preface"]{
+section[epub|type~="preface"]{
 	page-break-after: always;
 }
 
@@ -130,6 +93,7 @@ section[epub|type~="z3998:dramatis-personae"]{
 
 section[epub|type~="z3998:dramatis-personae"] p{
 	text-indent: 0;
+	page-break-after: always;
 }
 
 section[epub|type~="z3998:dramatis-personae"] ul{
