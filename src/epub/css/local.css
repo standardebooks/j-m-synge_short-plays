@@ -89,11 +89,11 @@ td > p{
 /* Begin dramatis personae */
 section[epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
+	page-break-after: always;
 }
 
 section[epub|type~="z3998:dramatis-personae"] p{
 	text-indent: 0;
-	page-break-after: always;
 }
 
 section[epub|type~="z3998:dramatis-personae"] ul{
