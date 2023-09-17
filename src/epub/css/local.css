@@ -74,12 +74,10 @@ p span.i1{
 	text-indent: 0;
 }
 
-section[epub|type~="preface"]{
-	page-break-after: always;
-}
-
+section[epub|type~="preface"],
+section[epub|type~="z3998:dramatis-personae"],
 article > hgroup{
-	page-break-after: always;
+	break-after: page;
 }
 
 td > p{
@@ -87,30 +85,27 @@ td > p{
 }
 
 /* Begin dramatis personae */
-section[epub|type~="z3998:dramatis-personae"]{
-	page-break-after: always;
+[epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
 }
 
-section[epub|type~="z3998:dramatis-personae"] p{
+[epub|type~="z3998:dramatis-personae"] p{
 	text-indent: 0;
 }
 
-section[epub|type~="z3998:dramatis-personae"] ul{
+[epub|type~="z3998:dramatis-personae"] ul{
 	list-style: none;
-	margin-bottom: 2em;
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 0;
+	margin: 0;
 	padding: 0;
 }
 
-section[epub|type~="z3998:dramatis-personae"] ul li{
+[epub|type~="z3998:dramatis-personae"] ul li{
 	font-style: italic;
-	margin-bottom: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-top: 1em;
+	margin: 1em;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul + p{
+	margin-top: 2em;
 }
 
 /* Signature lines for preface to The Tinker's Wedding */
