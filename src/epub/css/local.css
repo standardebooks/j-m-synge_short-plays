@@ -108,9 +108,15 @@ td > p{
 	margin-top: 2em;
 }
 
-/* Signature lines for preface to The Tinker's Wedding */
-#the-tinkers-wedding-preface footer{
-	margin-bottom: 1em;
+/* Preface to The Tinker's Wedding */
+
+footer{
 	margin-top: 1em;
 	text-align: right;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
 }
