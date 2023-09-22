@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/j-m-synge/short-plays</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-09-22T19:07:11Z</dc:date>
+		<meta property="dcterms:modified">2023-09-22T19:07:11Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,10 +41,11 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Drama</meta>
-		<dc:description id="description">A collection of three short plays by Synge.</dc:description>
+		<meta property="se:is-a-collection">true</meta>
+		<dc:description id="description">A collection of three short plays by J. M. Synge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-m-synge"&gt;John Millington Synge&lt;/a&gt; first gained fame as a playwright with two plays inspired by his time in the Aran Islands. “In the Shadow of the Glen” is set in County Wicklow, where a tramp arrives at an isolated cottage late at night where a dissatisfied woman is waking her dead husband. This was followed by “Riders to the Sea,” set on the Aran Islands, where Maura waits for news of her son, missing at sea.&lt;/p&gt;
-			&lt;p&gt;This collection also includes “The Tinker’s Wedding,” a short comedy written about the time of the other two pieces but not performed until much later for fear that its treatment of a rural Irish priest would scandalize the pious Dublin audiences of the time.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-m-synge"&gt;J. M. Synge&lt;/a&gt; first gained fame as a playwright with two plays inspired by his time in the Aran Islands, “In the Shadow of the Glen” and “Riders to the Sea.” The first is set in County Wicklow, where a tramp arrives at an isolated cottage late at night as a dissatisfied woman is waking her dead husband. The second is set on the Aran Islands, where a woman waits for news of her son, who is missing at sea.&lt;/p&gt;
+			&lt;p&gt;This collection also includes “The Tinker’s Wedding,” a short comedy written about the time of the other two plays but not performed until much later for fear that its treatment of a rural Irish priest would scandalize Dublin’s pious audiences.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- In the Shadow of the Glen -->
@@ -55,8 +56,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/1328</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001024645</dc:source>
 		<meta property="se:is-a-collection">true</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">19009</meta>
+		<meta property="se:reading-ease.flesch">88.67</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-m-synge_short-plays</meta>
 		<dc:creator id="author">J. M. Synge</dc:creator>
 		<meta property="file-as" refines="#author">Synge, J. M.</meta>
@@ -84,6 +85,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
