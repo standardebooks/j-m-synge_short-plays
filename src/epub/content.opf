@@ -59,7 +59,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/001024645</dc:source>
 		<meta property="se:is-a-collection">true</meta>
 		<meta property="se:word-count">19009</meta>
-		<meta property="se:reading-ease.flesch">88.67</meta>
+		<meta property="se:reading-ease.flesch">88.87</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-m-synge_short-plays</meta>
 		<dc:creator id="author">J. M. Synge</dc:creator>
 		<meta property="file-as" refines="#author">Synge, J. M.</meta>
