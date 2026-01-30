@@ -45,6 +45,7 @@
 		<meta property="se:is-a-collection">true</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="se:title-in-collection" refines="#collection-1">Riders to the Sea</meta>
 		<dc:description id="description">A collection of three short plays by J. M. Synge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-m-synge"&gt;J. M. Synge&lt;/a&gt; first gained fame as a playwright with two plays inspired by his time in the Aran Islands, “In the Shadow of the Glen” and “Riders to the Sea.” The first is set in County Wicklow, where a tramp arrives at an isolated cottage late at night as a dissatisfied woman is waking her dead husband. The second is set on the Aran Islands, where a woman waits for news of her son, who is missing at sea.&lt;/p&gt;
