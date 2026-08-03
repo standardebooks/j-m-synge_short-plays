@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/j-m-synge/short-plays</dc:identifier>
 		<dc:date>2023-09-22T19:07:11Z</dc:date>
@@ -49,11 +49,11 @@
 		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">Riders to the Sea</meta>
-		<dc:description id="description">A collection of three short plays by J. M. Synge.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of three short plays by J. M. Synge.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-m-synge"&gt;J. M. Synge&lt;/a&gt; first gained fame as a playwright with two plays inspired by his time in the Aran Islands, “In the Shadow of the Glen” and “Riders to the Sea.” The first is set in County Wicklow, where a tramp arrives at an isolated cottage late at night as a dissatisfied woman is waking her dead husband. The second is set on the Aran Islands, where a woman waits for news of her son, who is missing at sea.&lt;/p&gt;
 			&lt;p&gt;This collection also includes “The Tinker’s Wedding,” a short comedy written about the time of the other two plays but not performed until much later for fear that its treatment of a rural Irish priest would scandalize Dublin’s pious audiences.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- In the Shadow of the Glen -->
 		<dc:source>https://www.gutenberg.org/ebooks/1618</dc:source>
