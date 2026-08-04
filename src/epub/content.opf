@@ -49,7 +49,7 @@
 		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">Riders to the Sea</meta>
-		<dc:abstract>A collection of three short plays by J. M. Synge.</dc:abstract>
+		<meta property="schema:abstract">A collection of three short plays by J. M. Synge.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-m-synge"&gt;J. M. Synge&lt;/a&gt; first gained fame as a playwright with two plays inspired by his time in the Aran Islands, “In the Shadow of the Glen” and “Riders to the Sea.” The first is set in County Wicklow, where a tramp arrives at an isolated cottage late at night as a dissatisfied woman is waking her dead husband. The second is set on the Aran Islands, where a woman waits for news of her son, who is missing at sea.&lt;/p&gt;
 			&lt;p&gt;This collection also includes “The Tinker’s Wedding,” a short comedy written about the time of the other two plays but not performed until much later for fear that its treatment of a rural Irish priest would scandalize Dublin’s pious audiences.&lt;/p&gt;
